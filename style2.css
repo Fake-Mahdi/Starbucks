@@ -1,0 +1,22 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent
+{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px;
+    justify-content: center;
+    
+}
+.parent div
+{
+   
+    text-align: center;
+    background-color: blue;
+
+}

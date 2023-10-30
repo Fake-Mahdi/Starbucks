@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+scroll-behavior: smooth;
+}
+.navbar{
+margin-bottom: 0px;
+}
+.navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color: black;
+    padding: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1e3932;
+   
+}
+.navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-brand
+{
+color: white;
+}
+.navbar-default .navbar-brand:hover
+{
+    color: black;
+    background-color: grey;
+}
+
+.btn-success2
+{
+    padding: 8px;
+    padding-left:25px ;
+    padding-right:25px ;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    border: black 1px solid;
+    font-weight: bold;
+}
+.btn-success
+{
+    padding: 8px;
+    padding-left:25px ;
+    padding-right:25px ;
+        border-radius: 50px;
+    font-weight: bold;
+}
+.Sec1
+{
+    background-color: rgb(2, 68, 2);
+    margin-top: 80px;
+    color: white;
+    
+}
+h1,p, h4, h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+.mahdi
+{
+    
+    width: 50px;
+    height: 50px;
+   border: 2px solid darkgreen;
+   margin: 0px auto;
+   border-radius: 50%;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.flex div
+{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nass
+{
+    padding-right: 200px;
+}
+.titre{
+    margin-top: 150px;font-weight: bold;
+}
+@media (max-width:768px)
+{
+    .navbar{
+        margin-bottom: 0px;
+        }
+        .Sec1
+        {
+            margin-top: 50px;
+        }
+    .nass
+    {
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .titre
+    {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0px;
+        
+    }
+}
+.image
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    margin: 0px auto;
+}
+.text-center a 
+{
+    font-size: 18px;
+    color: green;
+    text-decoration: underline;
+}
+.container3
+{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(118, 208, 211);
+    margin: 0px auto;
+    padding-bottom: 20px;
+    
+    
+    
+}
